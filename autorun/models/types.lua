@@ -1,0 +1,21 @@
+---@class DecorationRewards
+---@field low_rank_rolls integer
+---@field high_rank_rolls integer
+---@field master_rank_rolls integer
+
+---@class MeldingParams
+---@field ticket_type TicketType
+---@field points_per_talisman integer
+---@field melding_type MeldingType
+---@field max_talisman_in_roll integer
+---@field max_rolls integer
+---@field mh_melding_id integer
+---@field unlock_quest integer
+---@field required_points integer
+
+---@alias RampageDecorationsByRank table<integer, string>
+---@alias DecorationsByRank table<integer, string>
+---@alias UnluckyDecorations table<integer, string>
+---@alias UnluckyRampageDecorations table<integer, string>
+---@alias Decorations table<integer, string>
+---@alias RampageDecorations table<integer, string>
